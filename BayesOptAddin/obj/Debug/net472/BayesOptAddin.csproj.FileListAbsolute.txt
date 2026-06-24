@@ -1,0 +1,7 @@
+C:\Users\xljia\source\BayesOptAddin\bin\Debug\net472\BayesOptAddin.dll
+C:\Users\xljia\source\BayesOptAddin\bin\Debug\net472\BayesOptAddin.pdb
+C:\Users\xljia\source\BayesOptAddin\obj\Debug\net472\BayesOptAddin.csproj.AssemblyReference.cache
+C:\Users\xljia\source\BayesOptAddin\obj\Debug\net472\BayesOptAddin.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\xljia\source\BayesOptAddin\obj\Debug\net472\BayesOptAddin.csproj.CoreCompileInputs.cache
+C:\Users\xljia\source\BayesOptAddin\obj\Debug\net472\BayesOptAddin.dll
+C:\Users\xljia\source\BayesOptAddin\obj\Debug\net472\BayesOptAddin.pdb

@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "rzc04NQaIu2tyGnBtLcpL0xfLlo438C+A0Xptg6D9b+LCXHq93BZU/LcpaTDW9z1mDii93t5AQU5qNGvva45rA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\xljia\\source\\BayesOptAddin\\BayesOptAddin.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\xljia\\.nuget\\packages\\exceldna.addin\\1.8.0\\exceldna.addin.1.8.0.nupkg.sha512",
+    "C:\\Users\\xljia\\.nuget\\packages\\exceldna.integration\\1.8.0\\exceldna.integration.1.8.0.nupkg.sha512"
+  ],
+  "logs": []
+}

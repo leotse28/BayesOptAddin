@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+    <AssemblyName>BayesOptAddin</AssemblyName>
+    <RootNamespace>BayesOptAddin</RootNamespace>
+    <UseWindowsForms>true</UseWindowsForms>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <Optimize>true</Optimize>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup><Reference Include="Microsoft.CSharp" /></ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="ExcelDna.AddIn"       Version="1.8.0" />
+    <PackageReference Include="ExcelDna.Integration" Version="1.8.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="BayesOptAddin-AddIn.dna"><ExcelDnaProject>true</ExcelDnaProject></None>
+  </ItemGroup>
+</Project>

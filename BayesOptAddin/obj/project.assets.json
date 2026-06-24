@@ -1,0 +1,140 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.7.2": {
+      "ExcelDna.AddIn/1.8.0": {
+        "type": "package",
+        "dependencies": {
+          "ExcelDna.Integration": "[1.8.0]"
+        },
+        "build": {
+          "build/ExcelDna.AddIn.props": {},
+          "build/ExcelDna.AddIn.targets": {}
+        }
+      },
+      "ExcelDna.Integration/1.8.0": {
+        "type": "package",
+        "compile": {
+          "lib/net452/ExcelDna.Integration.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net452/ExcelDna.Integration.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ExcelDna.AddIn/1.8.0": {
+      "sha512": "Q+NcNeuzIkE6d21Sc0NGBpfKClKO8QU2ozR/EZ9RE+WjCxwwOUWXPRLev8+DpOCwkUjXtBIKjE7+xxHTac3PHA==",
+      "type": "package",
+      "path": "exceldna.addin/1.8.0",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/ExcelDna.AddIn.props",
+        "build/ExcelDna.AddIn.targets",
+        "content/ExcelDna-Template.dna",
+        "content/Properties/ExcelDna.Build.props",
+        "exceldna.addin.1.8.0.nupkg.sha512",
+        "exceldna.addin.nuspec",
+        "images/ExcelDna-nu.png",
+        "readme.txt",
+        "tools/net452/EnvDTE.dll",
+        "tools/net452/ExcelDna.AddIn.Tasks.dll",
+        "tools/net452/ExcelDna.Integration.dll",
+        "tools/net452/ExcelDna.xll",
+        "tools/net452/ExcelDna64.xll",
+        "tools/net452/Microsoft.Extensions.DependencyModel.dll",
+        "tools/net452/Newtonsoft.Json.dll",
+        "tools/net452/install.ps1",
+        "tools/net452/uninstall.ps1",
+        "tools/net6.0-windows7.0/AsmResolver.PE.File.dll",
+        "tools/net6.0-windows7.0/AsmResolver.PE.dll",
+        "tools/net6.0-windows7.0/AsmResolver.dll",
+        "tools/net6.0-windows7.0/ExcelDna.AddIn.Tasks.dll",
+        "tools/net6.0-windows7.0/ExcelDna.Integration.dll",
+        "tools/net6.0-windows7.0/ExcelDna.xll",
+        "tools/net6.0-windows7.0/ExcelDna64.xll"
+      ]
+    },
+    "ExcelDna.Integration/1.8.0": {
+      "sha512": "Z7UYuY291cTxc8lEESlUT73iI28yZ9LeJnvhPIRpZHBlrjbCN8lnEWvSmUqmUn1lBNGk6p2n0GlPuBhopJuksA==",
+      "type": "package",
+      "path": "exceldna.integration/1.8.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "exceldna.integration.1.8.0.nupkg.sha512",
+        "exceldna.integration.nuspec",
+        "images/ExcelDna-nu.png",
+        "lib/net452/ExcelDna.Integration.dll",
+        "lib/net452/ExcelDna.Integration.xml",
+        "lib/net6.0-windows7.0/ExcelDna.Integration.dll",
+        "lib/net6.0-windows7.0/ExcelDna.Integration.xml"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.7.2": [
+      "ExcelDna.AddIn >= 1.8.0",
+      "ExcelDna.Integration >= 1.8.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\xljia\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\xljia\\source\\BayesOptAddin\\BayesOptAddin.csproj",
+      "projectName": "BayesOptAddin",
+      "projectPath": "C:\\Users\\xljia\\source\\BayesOptAddin\\BayesOptAddin.csproj",
+      "packagesPath": "C:\\Users\\xljia\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\xljia\\source\\BayesOptAddin\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\xljia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net472"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net472": {
+          "targetAlias": "net472",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net472": {
+        "targetAlias": "net472",
+        "dependencies": {
+          "ExcelDna.AddIn": {
+            "target": "Package",
+            "version": "[1.8.0, )"
+          },
+          "ExcelDna.Integration": {
+            "target": "Package",
+            "version": "[1.8.0, )"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
