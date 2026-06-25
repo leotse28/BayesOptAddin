@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>BayesOptAddin</id>
+    <version>1.0.0</version>
+    <authors>BayesOptAddin</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETFramework4.7.2">
+        <dependency id="ExcelDna.AddIn" version="1.8.0" exclude="Build,Analyzers" />
+        <dependency id="ExcelDna.Integration" version="1.8.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="Microsoft.CSharp" targetFramework=".NETFramework4.7.2" />
+    </frameworkAssemblies>
+  </metadata>
+  <files>
+    <file src="C:\Users\xljia\source\BayesOptAddin\bin\Debug\net472\BayesOptAddin.dll" target="lib\net472\BayesOptAddin.dll" />
+  </files>
+</package>
